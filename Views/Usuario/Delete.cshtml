@@ -1,0 +1,46 @@
+﻿@model Biblioteca.Models.Usuario
+
+@{
+    ViewData["Title"] = "Apagar Usuario";
+}
+
+<h1>Apagar Usuario</h1>
+
+<h3>Você tem certeza que deseja apagar este Usuario?</h3>
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataNascimento, "{0:d MMM yyyy}", new {@disable="true"})
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="UsuarioID" />
+        <input type="submit" value="Apagar" class="btn btn-danger btn-sm" />
+        <a class="btn btn-secondary text-white btn-sm" asp-action="Index">Voltar</a>
+    </form>
+
+</div>

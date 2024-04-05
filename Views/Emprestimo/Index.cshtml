@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Biblioteca.Models.Emprestimo>
+
+@{
+    ViewData["Title"] = "Lista De Emprestimos";
+}
+
+@section styles{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+}
+
+<h1>Emprestimos</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Adicionar Emprestimo</a>
+</p>
+
+<br />
+
+<div class="d-flex flex-wrap">
+    @foreach (var item in Model)
+    {
+        <div class="card m-2" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">@item.Livro.Titulo.ToUpper()</h5>
+                <hr>
+                <p class="card-text"><strong>Usuário:</strong> @item.Usuario.Nome</p>
+                <p class="card-text"><strong>Data empréstimo:</strong> @item.DataEmprestimo</p>
+                <p class="card-text"><strong>Data Devolução:</strong> @item.DataDevolucao</p>
+                <hr>
+                <div class="text-center">
+                    <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@item.EmprestimoID">Editar</a>
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.EmprestimoID">Detalhes</a>
+                    <a class="btn btn-danger text-white btn-sm"
+                       data-toggle="modal" data-target="#modalConfirmationDelete"
+                       data-id="@item.EmprestimoID" data-nome="@item.DataEmprestimo">
+                        Apagar
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- modal -->
+    <div class="modal fade" id="modalConfirmationDelete" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModal">Apagar Emprestimo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Tem certeza que deseja excluir o empréstimo <span id="modalEmprestimoNome"></span> ?</p>
+                </div>
+
+                <div class="modal-footer">
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" id="modalEmprestimoID" name="id" />
+                        <input type="submit" value="Remover" class="btn btn-warning" />
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">
+                            Fechar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Manipula o clique no botão "Apagar"
+            $('.btn-danger').on('click', function () {
+                // Obtém os dados do botão clicado
+                var emprestimoID = $(this).data('id');
+                var emprestimoDataEmprestimo = $(this).data('DataEmprestimo');
+
+                // Atualiza os elementos no modal com os dados do livro
+                $('#modalEmprestimoID').val(livroID);
+                $('#modalEmprestimoDataEmprestimo').text(livroDataEmprestimo);
+            });
+        });
+    </script>
+}

@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\controllers\\approlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:controllers\\approlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\migrations\\20240405114937_newuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:migrations\\20240405114937_newuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\data\\iescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:data\\iescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\views\\approles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:views\\approles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\views\\approles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:views\\approles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|c:\\users\\usuario\\desktop\\trabalho-autenticacao1-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE82101-2920-48F5-B752-FE65AEEC4E47}|Biblioteca.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:13:12.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "Controllers\\LivroController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:13:11.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:13:10.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeneroController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\GeneroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\GeneroController.cs",
+              "RelativeToolTip": "Controllers\\GeneroController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:13:09.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmprestimoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\EmprestimoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmprestimoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\EmprestimoController.cs",
+              "RelativeToolTip": "Controllers\\EmprestimoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:13:08.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\AutorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AutorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\AutorController.cs",
+              "RelativeToolTip": "Controllers\\AutorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T12:13:04.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAIA4wJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:56:13.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240405114937_newuser.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Migrations\\20240405114937_newuser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240405114937_newuser.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Migrations\\20240405114937_newuser.cs",
+              "RelativeToolTip": "Migrations\\20240405114937_newuser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:49:38.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IESContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Data\\IESContext.cs",
+              "RelativeDocumentMoniker": "Data\\IESContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Data\\IESContext.cs",
+              "RelativeToolTip": "Data\\IESContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:47:24.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:46:43.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T11:45:31.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppRolesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\AppRolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppRolesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Controllers\\AppRolesController.cs",
+              "RelativeToolTip": "Controllers\\AppRolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:41:31.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAADEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T12:02:14.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Views\\AppRoles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AppRoles\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Views\\AppRoles\\Create.cshtml",
+              "RelativeToolTip": "Views\\AppRoles\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T11:45:01.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Views\\AppRoles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AppRoles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Views\\AppRoles\\Index.cshtml",
+              "RelativeToolTip": "Views\\AppRoles\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T11:43:19.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Trabalho-autenticacao1-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:38:25.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

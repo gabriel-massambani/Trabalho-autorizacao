@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Biblioteca.Models.Genero>
+
+@{
+    ViewData["Title"] = "Lista De Generos";
+}
+
+@section styles{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+}
+
+<h1>Generos</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Adicionar Genero</a>
+</p>
+
+<br />
+
+<div class="d-flex flex-wrap">
+    @foreach (var item in Model)
+    {
+        <div class="card m-2" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">@item.Nome.ToUpper()</h5>
+                <hr>
+                <p class="card-text"><strong>Descricao:</strong> @item.Descricao</p>
+                <p class="card-text"><strong>Estilo Narrativo:</strong> @item.EstiloNarrativo</p>
+                <p class="card-text"><strong>Publico Alvo:</strong> @item.PublicoAlvo</p>
+                <hr>
+                <div class="text-center">
+                    <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@item.GeneroID">Editar</a>
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.GeneroID">Detalhes</a>
+                    <a class="btn btn-danger text-white btn-sm"
+                       data-toggle="modal" data-target="#modalConfirmationDelete"
+                       data-id="@item.GeneroID" data-nome="@item.Nome">
+                        Apagar
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- modal -->
+    <div class="modal fade" id="modalConfirmationDelete" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModal">Apagar genero</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Tem certeza que deseja excluir o genero <span id="modalGeneroNome"></span> ?</p>
+                </div>
+
+                <div class="modal-footer">
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" id="modalGeneroID" name="id" />
+                        <input type="submit" value="Remover" class="btn btn-warning" />
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">
+                            Fechar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Manipula o clique no botão "Apagar"
+            $('.btn-danger').on('click', function () {
+                // Obtém os dados do botão clicado
+                var generoID = $(this).data('id');
+                var generoNome = $(this).data('nome');
+
+                // Atualiza os elementos no modal com os dados do genero
+                $('#modalGeneroID').val(generoID);
+                $('#modalGeneroNome').text(generoNome);
+            });
+        });
+    </script>
+}

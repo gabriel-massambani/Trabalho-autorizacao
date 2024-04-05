@@ -1,0 +1,42 @@
+﻿@model Biblioteca.Models.Usuario
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalhes do Usuario</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome):
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email):
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataNascimento):
+        </dt>
+        <dd class="col-sm-10">
+            @Html.TextBoxFor(model => model.DataNascimento, "{0:d MMM yyyy}", new {@disable="true"})
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone):
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-outline-primary btn-sm" asp-action="Edit" asp-route-id="@Model?.UsuarioID">Editar</a>
+    <a class="btn btn-secondary text-white btn-sm" asp-action="Index">Voltar</a>
+</div>
+

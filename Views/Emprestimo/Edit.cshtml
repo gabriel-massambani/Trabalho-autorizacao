@@ -1,0 +1,44 @@
+﻿@model Biblioteca.Models.Emprestimo
+
+@{
+    ViewData["Title"] = "Editar Emprestimo";
+}
+
+<h1>Editar Emprestimo</h1>
+
+<h1>Emprestimo</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="EmprestimoID" />
+            <div class="form-group">
+                <label class="control-label">Livro:</label>
+                <select asp-for="fk_LivroID" class="form-control"
+                        asp-items=@ViewBag.Livros>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Usuario:</label>
+                <select asp-for="fk_UsuarioID" class="form-control"
+                        asp-items=@ViewBag.Usuarios>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Data Empréstimo:</label>
+                <input asp-for="DataEmprestimo" class="form-control" />
+                <span asp-validation-for="DataEmprestimo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Data Devolução:</label>
+                <input asp-for="DataDevolucao" class="form-control" />
+                <span asp-validation-for="DataDevolucao" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="padding-top: 10px">
+                <input type="submit" value="Inserir" class="btn btn-primary btn-sm" />
+                <a class="btn btn-secondary text-white btn-sm" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@model Biblioteca.Models.Genero
+
+@{
+    ViewData["Title"] = "Apagar Genero";
+}
+
+<h1>Apagar Genero</h1>
+
+<h3>Você tem certeza que deseja apagar este Genero?</h3>
+<div>
+    <h4>Genero</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EstiloNarrativo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EstiloNarrativo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PublicoAlvo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PublicoAlvo)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="GeneroID" />
+        <input type="submit" value="Apagar" class="btn btn-danger btn-sm" />
+        <a class="btn btn-secondary text-white btn-sm" asp-action="Index">Voltar</a>
+    </form>
+
+</div>
